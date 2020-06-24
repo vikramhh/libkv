@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	etcd "github.com/coreos/etcd/client"
 	"github.com/docker/libkv"
 	"github.com/docker/libkv/store"
+	etcd "go.etcd.io/etcd/client"
 )
 
 const (
